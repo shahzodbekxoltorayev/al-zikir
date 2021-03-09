@@ -24,9 +24,26 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "src/assets/css/bootstrap.min.css",
+              "src/assets/css/all.min.css",
+              "src/assets/css/owl.theme.default.min.css",
+              "src/assets/css/animate.min.css",
+              "src/assets/css/fontawesome.css",
+              "src/assets/css/style.css",
+              "src/assets/css/media.css",
+              "src/assets/css/responsive.css",
+              "src/assets/css/owl.carousel.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/js/jquery-3.4.1.min.js",
+              "src/assets/js/owl.carousel.js",
+              "src/assets/js/bootstrap.min.js",
+              "src/assets/js/popper.min.js",
+              "src/assets/js/all.min.js",
+              "src/assets/js/index.js",
+              "src/assets/js/wow.min.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -119,6 +136,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "shops"
+    }
+  },
+  "defaultProject": "shops",
+  "cli": {
+    "analytics": "de93edda-c5eb-4568-9add-b4d024705a9d"
+  }
 }
